@@ -1,0 +1,5 @@
+log.info "Hello World...."
+
+def name = context.expand('${#Global#Name}');
+
+log.info ("Property name is "+name);
